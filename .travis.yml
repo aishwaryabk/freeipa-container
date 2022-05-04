@@ -4,7 +4,10 @@ dist: focal
 
 virt: vm
 #arch: arm64-graviton2
-arch: ppc64le
+arch: 
+- ppc64le
+- arm64-graviton2
+
 group: edge
 
 services:
